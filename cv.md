@@ -9,10 +9,10 @@ I am determined and productive web developer with a passion for creative solutio
 
 ## **Skills**
 
-⚫⚫⚫⚪⚪ HTML/CSS  
-⚫⚫⚪⚪⚪ JS (ES5, ES6+)  
-⚫⚫⚪⚪⚪ GIT  
-⚫⚫⚪⚪⚪ Figma  
+⚫⚫⚫⚫⚪ HTML/CSS  
+⚫⚫⚫⚪⚪ JS (ES5, ES6+)  
+⚫⚫⚫⚫⚪ GIT  
+⚫⚫⚫⚫⚪ Figma  
 
 ## **Code examples**
 
