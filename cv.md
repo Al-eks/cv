@@ -25,3 +25,15 @@ Github@Al-eks
 - [Html Academy](https://htmlacademy.ru/profile/id1565043/achievements "Completed")
 - [Codecademy](https://www.codecademy.com/profiles/Al-eks "Completed")
 - Createation website [www.bord.by](https://www.bord.by)
+
+## **Education**
+
+Brest State Technical University  
+2008-2014, Brest, Belarus  
+Department ASIP, 1-53 01 02 "Automated systems of information processing"
+
+## **Languages**
+
+English -  Pre-Intermediate (A2), I continue to study and study with a tutor.  
+Russian - Native  
+Polish - Advanced (B2)
