@@ -62,4 +62,39 @@ section {
 article {
   margin-bottom: 20px;
 }
-© 2022 GitHub, Inc.
+
+.code {
+  background-color: rgb(182, 255, 227);
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 20px 0;
+  padding: 0;
+  font-size: 1.2em;
+}
+
+.footer-list li {
+  list-style-type: none;
+}
+
+.footer {
+  position: relative;
+}
+
+.footer::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: #000000;
+}
+
+.rsschool {
+  width: 70px;
+  height: auto;
+}
