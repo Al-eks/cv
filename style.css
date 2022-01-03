@@ -6,6 +6,7 @@ body {
   font-family: 'Lato', sans-serif;
   width: 1024px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 header {
@@ -26,3 +27,39 @@ header img {
   height: auto;
   border-radius: 10px;
 }
+
+.menu__list {
+  list-style: none;
+  padding: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+mark {
+  background-color: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.skill-list {
+  list-style-type: none;
+  margin-left: -25px;
+}
+
+article {
+  margin-bottom: 20px;
+}
+© 2022 GitHub, Inc.
