@@ -9,70 +9,94 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <img class="foto" src="assets/foto.jpg" alt="Foto">
-    <nav class="personal">
+  <header class="header-background">
+    <div class="header-wrapper">
+      <div class="header-logo-wrapper">
+        <img src="./assets/logo.svg" alt="logo">
+      </div>
+      <div class="header-nav-container">
+        <nav class="header-nav-background">
+          <ul class="header-nav-wrapper">
+            <li><a class="header-nav-link" href="#contacts">Contacts</a></li>
+            <li><a class="header-nav-link" href="#summary">Summary</a></li>
+            <li><a class="header-nav-link" href="#skills">Skills</a></li>
+            <li><a class="header-nav-link" href="#code">Code</a></li>
+            <li><a class="header-nav-link" href="#experience">Experience</a></li>
+            <li><a class="header-nav-link" href="#education">Education</a></li>
+            <li><a class="header-nav-link" href="#projects">Projects</a></li>
+            <li><a class="header-nav-link" href="#languages">Languages</a></li>
+          </ul>
+        </nav>
+        <div class="header-burger">
+          <div class="header-burger-line"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section>
+      <img class="foto" src="assets/foto.jpg" alt="Foto">
+      <nav class="personal">
         <h1>Aleksandr Vouchanka</h1>
         <ul class="menu__list">
             <li><b>Location: </b>Brest, Belarus</li>
             <li><b>Mobile: </b>+375 (29) 225-27-55</li>
             <li><b>E-mail: </b><mark><a href="mailto:vouchankaaleks@gmail.com">vouchankaaleks@gmail.com</a></mark></li>
         </ul>
-    </nav>
-</header>
-<main>
-  <article>
-    <h2>Summary</h2>
-    <p>I am determined and productive web developer with a passion for creative solutions. I am constantly learning the latest technology and continuously improving my technical skills. I have experience in industrial electronics and think outside the box. I am stress-resistant and purposeful. Looking for an entry-level position at a productive company to be a hard-working asset to any team, to learn, grow and develop long-term.</p>
-  </article>
-  <section>
-    <h2>Skills</h2>
-        <ul class="skill-list">
-            <li>⚫⚫⚫⚫⚪ HTML/CSS</li>
-            <li>⚫⚫⚫⚪⚪ JS (ES5, ES6+)</li>
-            <li>⚫⚫⚫⚫⚪ GIT</li>
-            <li>⚫⚫⚫⚫⚪ Figma</li>
-        </ul>
-  </section>
-  <section>
-    <h2>Code examples</h2>
-    <a href="https://github.com/Al-eks/">Github@Al-eks</a>
-    <pre class="code"><code>String.prototype.toJadenCase = function () {
-      return this.split(' ').map((val) => val[0].toUpperCase() + val.slice(1)).join(' ');
-    };</code></pre>
-  </section>
-  <section>
-    <h2>Experience</h2>
-    <ul>
-        <li><a href="https://ru.hexlet.io/u/al-eks">Hexlet</a></li>
-        <li>Code-basics: <a href="https://ru.code-basics.com/languages/html">HTML</a>, <a href="https://ru.code-basics.com/languages/css">CSS</a>, <a href="https://ru.code-basics.com/languages/javascript">JavaScript</a></li>
-        <li><a href="https://htmlacademy.ru/profile/id1565043/achievements">Html Academy</a></li>
-        <li><a href="https://www.codecademy.com/profiles/Al-eks">Codecademy</a></li>
-        <li>Createation website <a href="https://www.bord.by">www.bord.by</a></li>
+      </nav>
+    </section>
+    <article>
+      <h2>Summary</h2>
+      <p>I am determined and productive web developer with a passion for creative solutions. I am constantly learning the latest technology and continuously improving my technical skills. I have experience in industrial electronics and think outside the box. I am stress-resistant and purposeful. Looking for an entry-level position at a productive company to be a hard-working asset to any team, to learn, grow and develop long-term.</p>
+    </article>
+    <section>
+      <h2>Skills</h2>
+          <ul class="skill-list">
+              <li>⚫⚫⚫⚫⚪ HTML/CSS</li>
+              <li>⚫⚫⚫⚪⚪ JS (ES5, ES6+)</li>
+              <li>⚫⚫⚫⚫⚪ GIT</li>
+              <li>⚫⚫⚫⚫⚪ Figma</li>
+          </ul>
+    </section>
+    <section>
+      <h2>Code examples</h2>
+      <a href="https://github.com/Al-eks/">Github@Al-eks</a>
+      <pre class="code"><code>String.prototype.toJadenCase = function () {
+        return this.split(' ').map((val) => val[0].toUpperCase() + val.slice(1)).join(' ');
+      };</code></pre>
+    </section>
+    <section>
+      <h2>Experience</h2>
+      <ul>
+          <li><a href="https://ru.hexlet.io/u/al-eks">Hexlet</a></li>
+          <li>Code-basics: <a href="https://ru.code-basics.com/languages/html">HTML</a>, <a href="https://ru.code-basics.com/languages/css">CSS</a>, <a href="https://ru.code-basics.com/languages/javascript">JavaScript</a></li>
+          <li><a href="https://htmlacademy.ru/profile/id1565043/achievements">Html Academy</a></li>
+          <li><a href="https://www.codecademy.com/profiles/Al-eks">Codecademy</a></li>
+          <li>Createation website <a href="https://www.bord.by">www.bord.by</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Education</h2>
+      <p>Brest State Technical University<br>2008-2014, Brest, Belarus<br>Department ASIP, 1-53 01 02 "Automated systems of information processing"</p>
+    </section>
+    <section class="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><a href="https://rolling-scopes-school.github.io/al-eks-JSFE2021Q1/wildlife/">wildlife</a></li>
+        <li><a href="https://rolling-scopes-school.github.io/al-eks-JSFE2021Q1/virtual-piano/">virtual-piano</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Languages</h2>
+      <p>English -  Pre-Intermediate (A2), I continue to study and study with a tutor<br>Russian - Native<br>Polish - Advanced (B2)</p>
+    </section>
+  </main>
+  <footer class="footer">
+    <ul class="footer-list">
+      <li>© 2022</li>
+      <li><a href="https://rs.school/" target="_blank"><img class="rsschool" src="assets/rs_school_js.svg" alt="RSSchool"></a></li>
+      <li><a href="https://github.com/al-eks">GitHub</a></li>
     </ul>
-  </section>
-  <section>
-    <h2>Education</h2>
-    <p>Brest State Technical University<br>2008-2014, Brest, Belarus<br>Department ASIP, 1-53 01 02 "Automated systems of information processing"</p>
-  </section>
-  <section class="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><a href="https://rolling-scopes-school.github.io/al-eks-JSFE2021Q1/wildlife/">wildlife</a></li>
-      <li><a href="https://rolling-scopes-school.github.io/al-eks-JSFE2021Q1/virtual-piano/">virtual-piano</a></li>
-    </ul>
-  </section>
-  <section>
-    <h2>Languages</h2>
-    <p>English -  Pre-Intermediate (A2), I continue to study and study with a tutor<br>Russian - Native<br>Polish - Advanced (B2)</p>
-  </section>
-</main>
-<footer class="footer">
-  <ul class="footer-list">
-    <li>© 2022</li>
-    <li><a href="https://rs.school/" target="_blank"><img class="rsschool" src="assets/rs_school_js.svg" alt="RSSchool"></a></li>
-    <li><a href="https://github.com/al-eks">GitHub</a></li>
-  </ul>
-</footer>
+  </footer>
 </body>
 </html>

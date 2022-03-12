@@ -9,19 +9,28 @@ body {
   padding: 0 20px;
 }
 
-header {
+.header-wrapper {
   display: flex;
-  justify-content: center;
-  padding: 20px 0;
+  justify-content: space-between;
+  padding: 0 20px;
   width: 1024px;
-  margin-bottom: 20px;
+  height: 60px;
+}
+
+.header-logo-wrapper img {
+  height: 50px;
+}
+
+.header-nav-wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
 h1 {
   font-size: 2em;
 }
 
-header img {
+section img {
   margin-right: 20px;
   width: 100px;
   height: auto;
