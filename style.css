@@ -4,9 +4,35 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  width: 1024px;
+  /* width: 1024px; */
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0;
+  color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header-background {
+  width: 100%;
+	height: 60px;
+  background: linear-gradient(0deg, rgb(255, 122, 0) 1px, rgb(0, 0, 0) 10%);
 }
 
 .header-wrapper {
@@ -14,7 +40,12 @@ body {
   justify-content: space-between;
   padding: 0 20px;
   width: 1024px;
-  height: 60px;
+  margin: 0 auto;
+}
+
+.header-logo-wrapper {
+  height: 50px;
+  margin: auto 0;
 }
 
 .header-logo-wrapper img {
@@ -22,8 +53,35 @@ body {
 }
 
 .header-nav-wrapper {
+  height: 60px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-nav-link {
+  transition: .5s;
+}
+
+.header-nav-link:hover {
+  color: rgb(0, 180, 80);
+  transition: .5s;
+}
+
+.main-background {
+  width: 100%;
+	height: 60px;
+  background: #000000;
+}
+
+section, article {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  width: 1024px;
+  margin: 0 auto;
+  background: #000000;
 }
 
 h1 {
