@@ -8,6 +8,7 @@ body {
   margin: 0 auto;
   padding: 0;
   color: #ffffff;
+  cursor: default;
 }
 
 html {
@@ -21,7 +22,6 @@ ul, h1, h2, h3, h4, h5, h6, p {
 
 li {
   list-style-type: none;
-  cursor: pointer;
 }
 
 a {
@@ -39,17 +39,14 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
-  width: 1024px;
+  max-width: 1024px;
   margin: 0 auto;
 }
 
 .header-logo-wrapper {
-  height: 50px;
+  display: flex;
+  height: 44px;
   margin: auto 0;
-}
-
-.header-logo-wrapper img {
-  height: 50px;
 }
 
 .header-nav-wrapper {
@@ -71,33 +68,40 @@ a {
 
 .main-background {
   width: 100%;
-	height: 60px;
   background: #000000;
 }
 
 section, article {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  padding: 0 20px;
-  width: 1024px;
+  padding: 20px 20px 0 20px;
+  max-width: 1024px;
   margin: 0 auto;
   background: #000000;
+}
+
+.main-contacts {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ gap: 60px;
 }
 
 h1 {
   font-size: 2em;
 }
 
-section img {
-  margin-right: 20px;
+.main-contacts img {
   width: 100px;
   height: auto;
   border-radius: 10px;
 }
 
-.menu__list {
-  list-style: none;
-  padding: 0;
+.main-contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 h1 {
@@ -108,30 +112,33 @@ mark {
   background-color: inherit;
 }
 
-a {
-  text-decoration: none;
-}
-
 h2 {
-  font-size: 34px;
+  font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
-section {
-  margin-bottom: 20px;
+.main-code {
+  margin-top: 5px;
+  background-color: rgb(30, 30, 30);
+  color: rgb(0, 180, 80);;
 }
 
-.skill-list {
-  list-style-type: none;
-  margin-left: -25px;
+.main-link-github {
+  transition: .5s;
 }
 
-article {
-  margin-bottom: 20px;
+.main-link-github:hover {
+  color: rgb(0, 180, 80);
+  transition: .5s;
 }
 
-.code {
-  background-color: rgb(182, 255, 227);
+.main-experience-list * {
+  transition: .5s;
+}
+
+.main-experience-list a:hover {
+  color: rgb(0, 180, 80);
+  transition: .5s;
 }
 
 .footer-list {
