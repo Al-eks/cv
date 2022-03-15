@@ -68,17 +68,17 @@ a {
 
 .main-background {
   width: 100%;
-  background: #000000;
+  background: #090909;
 }
 
 section, article {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20px 20px 0 20px;
+  padding: 25px 20px 0 20px;
   max-width: 1024px;
   margin: 0 auto;
-  background: #000000;
+  background: #090909;
 }
 
 .main-contacts {
@@ -86,6 +86,12 @@ section, article {
  flex-direction: row;
  justify-content: center;
  gap: 60px;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 h1 {
@@ -114,13 +120,8 @@ mark {
 
 h2 {
   font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-
-.main-code {
-  margin-top: 5px;
-  background-color: rgb(30, 30, 30);
-  color: rgb(0, 180, 80);;
+  margin-bottom: 5px;
+  color: rgb(0, 180, 80);
 }
 
 .main-link-github {
@@ -138,6 +139,32 @@ h2 {
 
 .main-experience-list a:hover {
   color: rgb(0, 180, 80);
+  transition: .5s;
+}
+
+.projects-item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 10px;
+}
+
+.projects-item * {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 300px;
+}
+
+.projects-item img {
+  width: 300px;
+  height: auto;
+  transition: .5s;
+}
+
+.projects-item img:hover {
+  transform: scale(1.1);
   transition: .5s;
 }
 
@@ -165,7 +192,7 @@ h2 {
   left: 0;
   right: 0;
   height: 3px;
-  background-color: #000000;
+  background-color: #090909;
 }
 
 .rsschool {
