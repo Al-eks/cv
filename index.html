@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Vouchanka</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/shades-of-purple.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <base target="_blank">
+</head>
+<body>
+  <header class="header-background">
+    <div class="header-wrapper">
+      <div class="header-logo-wrapper">
+        <img src="./assets/logo.svg" alt="logo">
+      </div>
+      <div class="header-nav-container">
+        <nav class="header-nav-background">
+          <ul class="header-nav-wrapper">
+            <li><a class="header-nav-link" href="#contacts" target="_self">Contacts</a></li>
+            <li><a class="header-nav-link" href="#summary" target="_self">Summary</a></li>
+            <li><a class="header-nav-link" href="#skills" target="_self">Skills</a></li>
+            <li><a class="header-nav-link" href="#code" target="_self">Code</a></li>
+            <li><a class="header-nav-link" href="#experience" target="_self">Experience</a></li>
+            <li><a class="header-nav-link" href="#education" target="_self">Education</a></li>
+            <li><a class="header-nav-link" href="#languages" target="_self">Languages</a></li>
+            <li><a class="header-nav-link" href="#projects" target="_self">Projects</a></li>
+          </ul>
+        </nav>
+        <div class="header-burger">
+          <div class="header-burger-line"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main-background">
+    <section id="contacts" class="main-contacts">
+      <img src="assets/foto.jpg" alt="Foto">
+      <nav class="main-nav">
+        <h1>Aleksandr Vouchanka</h1>
+        <ul class="main-contacts-list">
+            <li><b>Location: </b>Brest, Belarus</li>
+            <li><b>Mobile: </b>+375 (29) 225-27-55</li>
+            <li><b>E-mail: </b><mark><a href="mailto:vouchankaaleks@gmail.com">vouchankaaleks@gmail.com</a></mark></li>
+        </ul>
+      </nav>
+    </section>
+    <article id="summary">
+      <h2>Summary</h2>
+      <p>I am determined and productive web developer with a passion for creative solutions. I am constantly learning the latest technology and continuously improving my technical skills. I have experience in industrial electronics and think outside the box. I am stress-resistant and purposeful. Looking for an entry-level position at a productive company to be a hard-working asset to any team, to learn, grow and develop long-term.</p>
+    </article>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skill-list">
+          <li>HTML / CSS</li>
+          <li>JavaScript (ES5, ES6+)</li>
+          <li>GIT / GitHub</li>
+          <li>Figma</li>
+          <li>Visual Studio Code</li>
+          <li>Codewars:<img src="assets/codewars.svg" alt="codevars"></li>
+      </ul>
+    </section>
+    <section id="code">
+      <h2>Code examples</h2>
+      <a class="main-link-github" href="https://github.com/Al-eks/">Github@Al-eks</a>
+      <p>Code example from codewars:</p>
+      <pre><code>
+        const dataReverse = data => {
+          const l = data.length /8
+          const arr = [...Array(l)].map((el, i) => [...Array(8)].map((e, num) => e = data[i*8+num])).reverse()
+          return arr.reduce((acc, val) => acc.concat(val), [])
+        }</code></pre>
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul class="main-experience-list">
+          <li><a href="https://app.rs.school/certificate/ozukgsx3">JS/FE Pre-School 2022: Top 1</a></li>
+          <li><a href="https://ru.hexlet.io/u/al-eks">Hexlet</a></li>
+          <li>Code-basics: <a href="https://ru.code-basics.com/languages/html">HTML</a>, <a href="https://ru.code-basics.com/languages/css">CSS</a>, <a href="https://ru.code-basics.com/languages/javascript">JavaScript</a></li>
+          <li><a href="https://htmlacademy.ru/profile/id1565043/achievements">Html Academy</a></li>
+          <li><a href="https://www.codecademy.com/profiles/Al-eks">Codecademy</a></li>
+          <li>Createation website <a href="http://www.bord.by">www.bord.by</a></li>
+      </ul>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <p>Brest State Technical University<br>2008-2014, Brest, Belarus<br>Department ASIP, 1-53 01 02 "Automated systems of information processing"</p>
+    </section>
+    <section id="languages">
+      <h2>Languages</h2>
+      <p>English -  Pre-Intermediate (A2), I continue to study and study with a tutor<br>Russian - Native<br>Polish - Advanced (B2)</p>
+    </section>
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="projects-item">
+        <div class="projects-tic-tac-toe">
+          <a href="https://rolling-scopes-school.github.io/al-eks-JSFEPRESCHOOL/tic-tac-toe/"><img src="assets/tic-tac-toe.jpg" alt="tic-tac-toe"></a>
+          <h4>Tic-tac-toe</h4>
+          <p>Tic-tac-toe game created as part of the training</p>
+          <p>Technologies used: HTML, CSS, JavaScript, localstorage, getData</p>
+        </div>
+        <div class="projects-portfolio">
+          <a href="https://rolling-scopes-school.github.io/al-eks-JSFEPRESCHOOL/portfolio/"><img src="assets/portfolio.jpg" alt="portfolio"></a>
+          <h4>Portfolio</h4>
+          <p>Landing page created as part of the training</p>
+          <p>Technologies used: HTML, CSS, JavaScript, localstorage</p>
+        </div>
+        <div class="image-gallery">
+          <a href="https://rolling-scopes-school.github.io/al-eks-JSFEPRESCHOOL/image-gallery/"><img src="assets/image-gallery.jpg" alt="image-gallery"></a>
+          <h4>Image-gallery</h4>
+          <p>Interactive page created as part of the training</p>
+          <p>Technologies used: HTML, CSS, JavaScript, JSON (JavaScript Object Notation), localstorage, API(Application Programming Interfaces)</p>
+        </div>
+        <div class="virtual-piano">
+          <a href="https://rolling-scopes-school.github.io/al-eks-JSFE2021Q1/virtual-piano/"><img src="assets/virtual-piano.jpg" alt="virtual-piano"></a>
+          <h4>Virtual piano</h4>
+          <p>Page virtual piano created as part of the training</p>
+          <p>Technologies used: HTML, CSS, JavaScript</p>
+        </div>
+        <div class="museum">
+          <a href="https://rolling-scopes-school.github.io/al-eks-JSFE2021Q3/museum-dom/"><img src="assets/museum.jpg" alt="museum"></a>
+          <h4>Museum</h4>
+          <p>Landing page created as part of the training</p>
+          <p>Technologies used: HTML, CSS, JavaScript</p>
+        </div>
+        <div class="wildlife">
+          <a href="https://rolling-scopes-school.github.io/al-eks-JSFE2021Q1/wildlife/"><img src="assets/wildlife.jpg" alt="wildlife"></a>
+          <h4>Wildlife</h4>
+          <p>Landing page created as part of the training</p>
+          <p>Technologies used: HTML, CSS</p>
+        </div>
+        <div class="online-zoo">
+          <a href="https://rolling-scopes-school.github.io/al-eks-JSFE2021Q1/online-zoo/first/"><img src="assets/online-zoo.jpg" alt="online-zoo"></a>
+          <h4>Onlinezoo</h4>
+          <p>Landing page created as part of the training</p>
+          <p>Technologies used: HTML, CSS</p>
+        </div>
+        <div class="cssMemSlider">
+          <a href="https://al-eks.github.io/cssMemSlider/cssMemSlider/"><img src="assets/cssMemSlider.jpg" alt="cssMemSlider"></a>
+          <h4>CSS Mem Slider</h4>
+          <p>Landing page created as part of the training</p>
+          <p>Technologies used: HTML, CSS</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer-background">
+    <ul class="footer-list">
+      <li class="footer-list-first"><span>©</span><span>2022</span><a href="https://github.com/al-eks">Al-eks</a></li>
+      <li><a href="https://rs.school/"><img src="assets/rss.svg" alt="RSSchool"></a></li>
+    </ul>
+  </footer>
+</body>
+</html>
